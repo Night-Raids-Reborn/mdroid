@@ -59,10 +59,13 @@
    
 ## Building and Support ##
 
-## Elixir.mk ##
+## elixir.mk ##
 - Device trees MUST contain a elixir.mk file with device declaration of elixir_[devicename].
+
+## elixir.dependencies ##
 - Device trees MUST support a elixir.dependencies file for breakfast/lunch command & roomservice to be functional.
 - This file MUST NOT include any dependencies outside of the "ElixirOS" organization.
+
 - All devices MUST be configured as userdebug releases.
 
 ```bash
