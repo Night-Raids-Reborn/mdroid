@@ -57,8 +57,15 @@
    lib32-ncurses5-compat-libsAUR xml2 lzop pngcrush imagemagick
    ```
    
-## Building ##
-  ```bash
+## Building and Support ##
+
+## Elixir.mk ##
+- Device trees MUST contain a elixir.mk file with device declaration of elixir_[devicename].
+- Device trees MUST support a elixir.dependencies file for breakfast/lunch command & roomservice to be functional.
+- This file MUST NOT include any dependencies outside of the "ElixirOS" organization.
+- All devices MUST be configured as userdebug releases.
+
+```bash
    $ . build/envsetup.sh                                     
    $ lunch elixir_device-userdebug  #only if ElixirOS is Officially supported for your device, if not clone manually and do,
    $ lunch #select your device from lunch menu
