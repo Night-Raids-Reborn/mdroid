@@ -140,6 +140,7 @@
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="eos" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="eos" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="eos" />
+    <project path="vendor/qcom/opensource/bluetooth" name="omnirom/android_vendor_qcom_opensource_bluetooth" remote="github" revision="android-8.1" />
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="eos" />
