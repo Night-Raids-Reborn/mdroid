@@ -1,4 +1,4 @@
-# ELixir OS #
+# Elixir OS #
 
 ![alt text](https://github.com/ElixirOS/android/blob/android-8.1/ElixirOS.jpg)
 
@@ -66,8 +66,7 @@
 - Device trees MUST support a elixir.dependencies file for breakfast/lunch command & roomservice to be functional.
 - This file MUST NOT include any dependencies outside of the "ElixirOS" organization.
 
-- All devices MUST be configured as userdebug releases.
-
+## Building Magical World ##
 ```bash
    $ . build/envsetup.sh                                     
    $ lunch elixir_device-userdebug  #only if ElixirOS is Officially supported for your device, if not clone manually and do,
@@ -75,7 +74,6 @@
    $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
    ```
    
-   
-   
-   
-   
+## For Official Support ##
+- All devices MUST be configured as userdebug releases.
+- All devices MUST be configured for SELinux Enforcing.
