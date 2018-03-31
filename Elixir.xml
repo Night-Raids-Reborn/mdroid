@@ -55,14 +55,14 @@
     <project path="system/media" name="android_system_media" remote="eos"  />
     <project path="system/nfc" name="android_system_nfc" remote="eos"  />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="eos"  />
-    <project path="system/qcom" name="omnirom/android_system_qcom" remote="github" revision="android-8.1" />
+    <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-15.1" />
     <project path="system/vold" name="android_system_vold" remote="eos"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="eos"  />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="eos" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="eos" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="eos" />
+    <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-15.1" />
     <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="eos" />
     <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8084" />
     <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8916" />
@@ -99,7 +99,7 @@
     <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8996" />
     <project path="hardware/qcom/power" name="omnirom/android_hardware_qcom_power" remote="github" revision="android-8.1" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="eos" />
-    <project path="hardware/qcom/wlan-caf" name="omnirom/android_hardware_qcom_wlan" remote="github" revision="android-8.1" />
+    <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-15.1-caf" />
     <project path="hardware/ril" name="android_hardware_ril" remote="eos" />
     <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-15.1-caf" />
     <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="lineage-15.1" />
