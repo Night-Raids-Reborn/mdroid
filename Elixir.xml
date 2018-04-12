@@ -55,7 +55,7 @@
     <project path="system/media" name="android_system_media" remote="eos"  />
     <project path="system/nfc" name="android_system_nfc" remote="eos"  />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="eos"  />
-    <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-15.1" />
+    <project path="system/qcom" name="android_system_qcom" remote="eos" />
     <project path="system/vold" name="android_system_vold" remote="eos"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="eos"  />
 
