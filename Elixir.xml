@@ -6,12 +6,12 @@
         fetch="https://github.com/" />
 
     <remote name="eos"
-        fetch="https://github.com/ElixirOS"
+        fetch="https://github.com/MiracleDROID"
         revision="android-8.1" />
   
     <remote name="eos-gitlab"
         revision="android-8.1"
-        fetch="https://gitlab.com/ElixirOS/" />
+        fetch="https://gitlab.com/MiracleDROID/" />
    
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="eos" />
@@ -131,7 +131,6 @@
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-15.1"  />
     <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="eos" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="eos" />
-    <project path="packages/apps/ElixirOTA" name="android_packages_apps_ElixirOTA" remote="eos" />
     <project path="packages/overlays/Elixir" name="android_packages_overlays_Elixir" remote="eos" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="eos" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="eos" />

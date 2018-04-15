@@ -1,6 +1,4 @@
-# Elixir OS #
-
-![alt text](https://github.com/ElixirOS/android/blob/android-8.1/ElixirOS.jpg)
+# MiracleDROID #
 
 ## Magical World Begins Here!! ##
 
@@ -31,10 +29,10 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/ElixirOS/android -b android-8.1
+   $ repo init -u https://github.com/MiracleDROID/android -b android-8.1
    ```
    
-   - ## Necessary tools/packages to build Elixir ##
+   - ## Necessary tools/packages to build MiracleDROID ##
    
    ```bash
    For a debian user:
@@ -64,12 +62,12 @@
 
 ## elixir.dependencies ##
 - Device trees MUST support a elixir.dependencies file for breakfast/lunch command & roomservice to be functional.
-- This file MUST NOT include any dependencies outside of the "ElixirOS" organization.
+- This file MUST NOT include any dependencies outside of the "MiracleDROID" organization.
 
 ## Building Magical World ##
 ```bash
    $ . build/envsetup.sh                                     
-   $ lunch elixir_device-userdebug  #only if ElixirOS is Officially supported for your device, if not clone manually and do,
+   $ lunch elixir_device-userdebug  #only if MiracleDROID is Officially supported for your device, if not clone manually and do,
    $ lunch #select your device from lunch menu
    $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
    ```
