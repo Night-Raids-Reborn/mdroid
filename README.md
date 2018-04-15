@@ -29,7 +29,7 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/MiracleDROID/android -b android-8.1
+   $ repo init -u https://github.com/MiracleDROID/android -b android-8.1
    ```
    
    - ## Necessary tools/packages to build MiracleDROID ##
@@ -37,10 +37,10 @@
    ```bash
    For a debian user:
    sudo apt-get install git-core gnupg flex bison gperf build-essential \
-   zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
-   lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
+   zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
+   lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
    libgl1-mesa-dev libxml2-utils xsltproc unzip \
-   curl flex git  libesd0-dev liblz4-tool libncurses5-dev \
+   curl flex git  libesd0-dev liblz4-tool libncurses5-dev \
    libsdl1.2-dev libwxgtk3.0-dev libxml2  lzop maven pngcrush \
    schedtool squashfs-tools xsltproc zip zlib1g-dev lib32readline6-dev \
    g++-multilib gcc-multilib lib32ncurses5-dev lib32z1-dev openjdk-8-jdk
@@ -57,17 +57,17 @@
    
 ## Building and Support ##
 
-## elixir.mk ##
-- Device trees MUST contain a elixir.mk file with device declaration of elixir_[devicename].
+## mdroid.mk ##
+- Device trees MUST contain a mdroid.mk file with device declaration of mdroid_[devicename].
 
-## elixir.dependencies ##
-- Device trees MUST support a elixir.dependencies file for breakfast/lunch command & roomservice to be functional.
+## mdroid.dependencies ##
+- Device trees MUST support a mdroid.dependencies file for breakfast/lunch command & roomservice to be functional.
 - This file MUST NOT include any dependencies outside of the "MiracleDROID" organization.
 
 ## Building Magical World ##
 ```bash
    $ . build/envsetup.sh                                     
-   $ lunch elixir_device-userdebug  #only if MiracleDROID is Officially supported for your device, if not clone manually and do,
+   $ lunch mdroid_device-userdebug  #only if MiracleDROID is Officially supported for your device, if not clone manually and do,
    $ lunch #select your device from lunch menu
    $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
    ```
