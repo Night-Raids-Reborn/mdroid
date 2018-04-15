@@ -68,9 +68,9 @@
 ```bash
    $ . build/envsetup.sh                                     
    $ lunch mdroid_device-userdebug  #only if MiracleDROID is Officially supported for your device, if not clone manually and do,
-   $ lunch #select your device from lunch menu
-   $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
-   ```
+   $ lunch #select your device from lunch menu
+   $ make bacon -j$numberofsupportedthreads
+   ```
    
 ## For Official Support ##
 - All devices MUST be configured as userdebug releases.
