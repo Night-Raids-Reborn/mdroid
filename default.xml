@@ -627,7 +627,7 @@
   <!-- Remove unused AOSP repos -->
   <include name="remove.xml" />
 
-  <!-- Elixir repos -->
-  <include name="Elixir.xml" />
+  <!-- MDroid repos -->
+  <include name="MDroid.xml" />
 
 </manifest>

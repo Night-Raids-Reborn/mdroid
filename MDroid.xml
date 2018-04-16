@@ -5,18 +5,18 @@
     <remote name="github"
         fetch="https://github.com/" />
 
-    <remote name="eos"
+    <remote name="mdroid"
         fetch="https://github.com/MiracleDROID"
         revision="android-8.1" />
   
-    <remote name="eos-gitlab"
+    <remote name="mdroid-gitlab"
         revision="android-8.1"
         fetch="https://gitlab.com/MiracleDROID/" />
    
     <!-- general -->
-    <project path="build/kati" name="android_build_kati" remote="eos" />
+    <project path="build/kati" name="android_build_kati" remote="mdroid" />
 
-    <project path="build/make" name="android_build_make" remote="eos" >
+    <project path="build/make" name="android_build_make" remote="mdroid" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,21 +26,21 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="android_build_soong" remote="eos" >
+    <project path="build/soong" name="android_build_soong" remote="mdroid" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="bionic" name="android_bionic" remote="eos" />
+    <project path="bionic" name="android_bionic" remote="mdroid" />
 
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="eos" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="mdroid" />
 
     <!-- external -->
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="eos" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="eos" />
-    <project path="external/selinux" name="android_external_selinux" remote="eos" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="mdroid" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="mdroid" />
+    <project path="external/selinux" name="android_external_selinux" remote="mdroid" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.1" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="eos" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="mdroid" />
     <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-15.1" />
     <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-15.1" />
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-15.1" />
@@ -48,22 +48,22 @@
     <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="lineage-15.1" />
 
     <!-- system -->
-    <project path="system/bt" name="android_system_bt" remote="eos"  />
-    <project path="system/core" name="android_system_core" remote="eos"  />
-    <project path="system/extras" name="android_system_extras" remote="eos"  />
-    <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="eos"  />
-    <project path="system/media" name="android_system_media" remote="eos"  />
-    <project path="system/nfc" name="android_system_nfc" remote="eos"  />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="eos"  />
-    <project path="system/qcom" name="android_system_qcom" remote="eos" />
-    <project path="system/vold" name="android_system_vold" remote="eos"  />
-    <project path="system/libhidl" name="android_system_libhidl" remote="eos"  />
+    <project path="system/bt" name="android_system_bt" remote="mdroid"  />
+    <project path="system/core" name="android_system_core" remote="mdroid"  />
+    <project path="system/extras" name="android_system_extras" remote="mdroid"  />
+    <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="mdroid"  />
+    <project path="system/media" name="android_system_media" remote="mdroid"  />
+    <project path="system/nfc" name="android_system_nfc" remote="mdroid"  />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="mdroid"  />
+    <project path="system/qcom" name="android_system_qcom" remote="mdroid" />
+    <project path="system/vold" name="android_system_vold" remote="mdroid"  />
+    <project path="system/libhidl" name="android_system_libhidl" remote="mdroid"  />
 
     <!-- hardware -->
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="eos" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="eos" />
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mdroid" />
     <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-15.1" />
-    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="eos" />
+    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="mdroid" />
     <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8084" />
     <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8916" />
     <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8960" />
@@ -72,12 +72,12 @@
     <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8952" />
     <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8974" />
     <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8996" /> 
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="eos" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="mdroid" />
     <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-15.1-caf" />
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="eos" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="eos" />
-    <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="eos" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="eos" />
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="mdroid" />
+    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="mdroid" />
+    <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="mdroid" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="mdroid" />
     <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8084" />
     <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8916" />
     <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8960" />
@@ -86,9 +86,9 @@
     <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8952" />
     <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8974" />
     <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8996" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="eos" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="eos" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="eos" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="mdroid" />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="mdroid" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="mdroid" />
     <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8084" />
     <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8916" />
     <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8960" />
@@ -98,58 +98,58 @@
     <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8974" />
     <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8996" />
     <project path="hardware/qcom/power" name="omnirom/android_hardware_qcom_power" remote="github" revision="android-8.1" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="eos" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="mdroid" />
     <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-15.1-caf" />
-    <project path="hardware/ril" name="android_hardware_ril" remote="eos" />
+    <project path="hardware/ril" name="android_hardware_ril" remote="mdroid" />
     <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-15.1-caf" />
     <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="lineage-15.1" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="eos" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="eos" />
-    <project path="frameworks/native" name="android_frameworks_native" remote="eos" />
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="eos" />
-    <project path="frameworks/support" name="android_frameworks_support" remote="eos" />
-    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="eos" />
-    <project path="frameworks/hwkeys-support" name="android_frameworks_hwkeys-support" remote="eos" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="mdroid" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="mdroid" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="mdroid" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mdroid" />
+    <project path="frameworks/support" name="android_frameworks_support" remote="mdroid" />
+    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="mdroid" />
+    <project path="frameworks/hwkeys-support" name="android_frameworks_hwkeys-support" remote="mdroid" />
     
     <!-- packages -->
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="eos" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="eos"  />
-    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="eos"  />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="eos"  />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="eos"  />
-    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="eos"  />
-    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="eos"  />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="eos"  />
-    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="eos"  />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="eos"  />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="eos"  />
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="mdroid" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mdroid"  />
+    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="mdroid"  />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="mdroid"  />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="mdroid"  />
+    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="mdroid"  />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="mdroid"  />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mdroid"  />
+    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="mdroid"  />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="mdroid"  />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="mdroid"  />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="lineage-15.1"  />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="eos"  />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="mdroid"  />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="github" revision="lineage-15.1"  />
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-15.1"  />
-    <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="eos" />
-    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="eos" />
-    <project path="packages/overlays/Elixir" name="android_packages_overlays_Elixir" remote="eos" />
-    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="eos" />
-    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="eos" />
+    <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="mdroid" />
+    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="mdroid" />
+    <project path="packages/overlays/MDroid" name="android_packages_overlays_MDroid" remote="mdroid" />
+    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
 
     <!-- services -->
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="eos" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="eos" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mdroid" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mdroid" />
 
     <!-- vendor -->
-    <project path="vendor/elixir" name="android_vendor_elixir" remote="eos" />
+    <project path="vendor/mdroid" name="android_vendor_mdroid" remote="mdroid" />
     <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.1" />
     <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-15.1" />
-    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="eos" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="eos" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="eos" />
+    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="mdroid" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="mdroid" />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="mdroid" />
     <project path="vendor/qcom/opensource/bluetooth" name="omnirom/android_vendor_qcom_opensource_bluetooth" remote="github" revision="android-8.1" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="eos" />
-    <project path="device/elixir/sepolicy" name="android_device_elixir_sepolicy" remote="eos" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mdroid" />
+    <project path="device/mdroid/sepolicy" name="android_device_mdroid_sepolicy" remote="mdroid" />
 </manifest>
 
