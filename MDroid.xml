@@ -37,7 +37,7 @@
 
     <!-- external -->
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="mdroid" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="mdroid" />
+    <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="lineage-15.1"/>
     <project path="external/selinux" name="android_external_selinux" remote="mdroid" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.1" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="mdroid" />
