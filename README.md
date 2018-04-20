@@ -1,3 +1,5 @@
+<img src="https://github.com/MiracleDROID/android/raw/android-8.1/logo.png"> 
+
 # MiracleDROID #
 
 ## Magical World Begins Here!! ##
