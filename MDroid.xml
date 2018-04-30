@@ -111,6 +111,7 @@
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mdroid" />
     <project path="frameworks/support" name="android_frameworks_support" remote="mdroid" />
     <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="mdroid" />
+    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mdroid" />
     <project path="frameworks/hwkeys-support" name="android_frameworks_hwkeys-support" remote="mdroid" />
     
     <!-- packages -->
