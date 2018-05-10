@@ -138,6 +138,8 @@
     <project path="packages/overlays/MDroid" name="android_packages_overlays_MDroid" remote="mdroid" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
+    
+    <project path="packages/apps/MiracleOTA" name="android_packages_apps_MiracleOTA" remote="mdroid" />
 
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mdroid" />
