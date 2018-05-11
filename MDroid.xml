@@ -61,6 +61,7 @@
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
+    <project path="hardware/mdroid/interfaces" name="android_hardware_mdroid_interfaces" remote="mdroid" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mdroid" />
     <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-15.1" />
     <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="mdroid" />
