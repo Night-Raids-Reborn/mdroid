@@ -58,6 +58,7 @@
     <project path="system/qcom" name="android_system_qcom" remote="mdroid" />
     <project path="system/vold" name="android_system_vold" remote="mdroid"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="mdroid"  />
+    <project path="system/libhidl" name="android_system_netd" remote="mdroid"  />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
