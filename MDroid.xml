@@ -58,7 +58,7 @@
     <project path="system/qcom" name="android_system_qcom" remote="mdroid" />
     <project path="system/vold" name="android_system_vold" remote="mdroid"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="mdroid"  />
-    <project path="system/libhidl" name="android_system_netd" remote="mdroid"  />
+    <project path="system/netd" name="android_system_netd" remote="mdroid"  />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
@@ -140,7 +140,6 @@
     <project path="packages/overlays/MDroid" name="android_packages_overlays_MDroid" remote="mdroid" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
-    
     <project path="packages/apps/MiracleOTA" name="android_packages_apps_MiracleOTA" remote="mdroid" />
 
     <!-- services -->
