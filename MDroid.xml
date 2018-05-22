@@ -36,6 +36,7 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="mdroid" />
 
     <!-- external -->
+    <project path="external/chromium-webview" name="android_external_chromium-webview" remote="mdroid" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="mdroid" />
     <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="lineage-15.1"/>
     <project path="external/selinux" name="android_external_selinux" remote="mdroid" />

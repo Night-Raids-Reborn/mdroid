@@ -55,6 +55,7 @@
   <remove-project name="kernel/tests" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/e2fsprogs" />
