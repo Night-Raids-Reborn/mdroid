@@ -143,6 +143,9 @@
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
     <project path="packages/apps/MiracleOTA" name="android_packages_apps_MiracleOTA" remote="mdroid" />
 
+    <!-- prebuilts -->
+    <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" remote="mdroid-gitlab" />
+
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mdroid" />
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mdroid" />
