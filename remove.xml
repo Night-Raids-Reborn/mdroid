@@ -56,7 +56,11 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libskia" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />

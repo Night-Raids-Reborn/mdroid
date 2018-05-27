@@ -38,6 +38,10 @@
     <!-- external -->
     <project path="external/chromium-webview" name="android_external_chromium-webview" remote="mdroid" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="mdroid" />
+    <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="mdroid" />
+    <project path="external/libpng" name="android_external_libpng" remote="mdroid" />
+    <project path="external/libskia" name="android_external_libskia" remote="mdroid" />
+    <project path="external/sqlite" name="android_external_sqlite" remote="mdroid" />
     <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="lineage-15.1"/>
     <project path="external/selinux" name="android_external_selinux" remote="mdroid" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.1" />
