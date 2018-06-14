@@ -139,7 +139,7 @@
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="lineage-15.1"  />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="mdroid"  />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="github" revision="lineage-15.1"  />
-    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-15.1"  />
+    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mdroid"  />
     <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="mdroid" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="mdroid" />
     <project path="packages/overlays/MDroid" name="android_packages_overlays_MDroid" remote="mdroid" />
