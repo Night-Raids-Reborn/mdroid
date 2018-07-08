@@ -105,6 +105,7 @@
     <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8974" />
     <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8996" />
     <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="mdroid" />
+    <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="lineage-15.1" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="mdroid" />
     <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-15.1-caf" />
     <project path="hardware/ril" name="android_hardware_ril" remote="mdroid" />
