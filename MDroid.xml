@@ -64,6 +64,7 @@
     <project path="system/vold" name="android_system_vold" remote="mdroid"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="mdroid"  />
     <project path="system/netd" name="android_system_netd" remote="mdroid"  />
+    <project path="system/update_engine" name="android_system_update_engine" remote="mdroid"  />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
