@@ -53,6 +53,8 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-15.1" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-15.1" />
     <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="lineage-15.1" />
+    <project path="external/connectivity" name="android_external_connectivity" remote="mdroid" />
+    <project path="external/ebtables" name="android_external_ebtables" remote="mdroid" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="mdroid"  />
