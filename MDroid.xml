@@ -154,6 +154,7 @@
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
     <project path="packages/apps/MiracleOTA" name="android_packages_apps_MiracleOTA" remote="mdroid" />
+    <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="mdroid" />
 
     <!-- prebuilts -->
     <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="mdroid" />
