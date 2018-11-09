@@ -54,6 +54,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="kernel/tests" />
+  <remove-project name="platform/libcore" />
 
   <!-- External repos -->
   <remove-project name="platform/external/chromium-webview" />

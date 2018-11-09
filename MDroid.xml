@@ -37,6 +37,8 @@
 
     <project path="bootable/recovery" name="android_bootable_recovery" remote="mdroid" />
 
+    <project path="libcore" name="android_libcore" remote="mdroid" />
+
     <!-- external -->
     <project path="external/chromium-webview" name="android_external_chromium-webview" remote="mdroid" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="mdroid" />
