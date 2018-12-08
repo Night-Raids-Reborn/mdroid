@@ -119,7 +119,7 @@
     <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-15.1-caf" />
     <project path="hardware/ril" name="android_hardware_ril" remote="mdroid" />
     <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-15.1-caf" />
-    <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="lineage-15.1" />
+    <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="mdroid" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="mdroid" />
