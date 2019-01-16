@@ -130,6 +130,7 @@
     <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="mdroid" />
     <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="mdroid" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mdroid" />
+    <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="mdroid" />
     <project path="frameworks/hwkeys-support" name="android_frameworks_hwkeys-support" remote="mdroid" />
     
     <!-- packages -->
