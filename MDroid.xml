@@ -127,6 +127,7 @@
     <project path="frameworks/native" name="android_frameworks_native" remote="mdroid" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mdroid" />
     <project path="frameworks/support" name="android_frameworks_support" remote="mdroid" />
+    <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="mdroid" />
     <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="mdroid" />
     <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="mdroid" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mdroid" />
