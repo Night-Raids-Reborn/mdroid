@@ -124,6 +124,7 @@
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
 
   <!-- Prebuilts repos -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
