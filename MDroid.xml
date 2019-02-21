@@ -169,6 +169,7 @@
     <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="mdroid" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.3" remote="mdroid-gitlab" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.4.1" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.4.1" remote="mdroid" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-8.x" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-8.x" remote="mdroid-gitlab" />
 
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mdroid" />
