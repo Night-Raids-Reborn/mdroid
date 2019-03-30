@@ -151,6 +151,7 @@
     <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="mdroid" />
     <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="mdroid" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mdroid" />
+    <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="mdroid" />
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="mdroid" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="mdroid" />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="mdroid" />
