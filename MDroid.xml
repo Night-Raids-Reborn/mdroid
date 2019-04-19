@@ -161,7 +161,6 @@
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mdroid" />
     <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="mdroid" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="mdroid" />
-    <project path="packages/overlays/MDroid" name="android_packages_overlays_MDroid" remote="mdroid" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
     <project path="packages/apps/MiracleOTA" name="android_packages_apps_MiracleOTA" remote="mdroid" />
@@ -186,6 +185,7 @@
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="mdroid" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="mdroid" />
     <project path="vendor/qcom/opensource/bluetooth" name="omnirom/android_vendor_qcom_opensource_bluetooth" remote="github" revision="android-8.1" />
+    <project path="vendor/themes" name="android_vendor_themes" remote="mdroid" />
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mdroid" />
