@@ -154,6 +154,7 @@
     <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="mdroid" />
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="mdroid" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="mdroid" />
+    <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="mdroid" />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="mdroid" />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="lineage-15.1" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="mdroid" />
