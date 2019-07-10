@@ -58,6 +58,8 @@
     <project path="external/connectivity" name="android_external_connectivity" remote="mdroid" />
     <project path="external/ebtables" name="android_external_ebtables" remote="mdroid" />
     <project path="external/json-c" name="android_external_json-c" remote="mdroid" />
+    <project path="external/sfntly" name="android_external_sfntly" remote="mdroid" />
+    <project path="external/libhevc" name="android_external_libhevc" remote="mdroid" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="mdroid"  />
@@ -72,6 +74,9 @@
     <project path="system/libhidl" name="android_system_libhidl" remote="mdroid"  />
     <project path="system/netd" name="android_system_netd" remote="mdroid"  />
     <project path="system/update_engine" name="android_system_update_engine" remote="mdroid"  />
+    <project path="system/tools/hidl" name="android_system_tools_hidl" remote="mdroid" />
+    <project path="system/libhwbinder" name="android_system_libhwbinder" remote="mdroid" />
+    <project path="system/security" name="android_system_security" remote="mdroid" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
@@ -157,6 +162,7 @@
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="mdroid" />
     <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="mdroid" />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="mdroid" />
+    <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="mdroid" />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="lineage-15.1" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="mdroid" />
     <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="mdroid" />
