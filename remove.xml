@@ -68,6 +68,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/chromium-libpac" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
