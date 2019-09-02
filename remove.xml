@@ -69,6 +69,7 @@
   <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/libvpx" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />

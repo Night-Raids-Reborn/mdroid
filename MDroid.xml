@@ -61,6 +61,7 @@
     <project path="external/sfntly" name="android_external_sfntly" remote="mdroid" />
     <project path="external/libhevc" name="android_external_libhevc" remote="mdroid" />
     <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="mdroid" />
+    <project path="external/libvpx" name="android_external_libvpx" remote="mdroid" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="mdroid"  />
