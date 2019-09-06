@@ -62,7 +62,7 @@
     <project path="external/libhevc" name="android_external_libhevc" remote="mdroid" />
     <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="mdroid" />
     <project path="external/libvpx" name="android_external_libvpx" remote="mdroid" />
-    <project path="external/libcups" name="platform/external/libcups" remote="mdroid" />
+    <project path="external/libcups" name="android_external_libcups" remote="mdroid" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="mdroid"  />
@@ -80,7 +80,7 @@
     <project path="system/tools/hidl" name="android_system_tools_hidl" remote="mdroid" />
     <project path="system/libhwbinder" name="android_system_libhwbinder" remote="mdroid" />
     <project path="system/security" name="android_system_security" remote="mdroid" />
-    <project path="system/gatekeeper" name="platform/system/gatekeeper" remote="mdroid" />
+    <project path="system/gatekeeper" name="android_system_gatekeeper" remote="mdroid" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
