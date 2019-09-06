@@ -87,6 +87,7 @@
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/gatekeeper" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/native" />

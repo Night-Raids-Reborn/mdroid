@@ -80,6 +80,7 @@
     <project path="system/tools/hidl" name="android_system_tools_hidl" remote="mdroid" />
     <project path="system/libhwbinder" name="android_system_libhwbinder" remote="mdroid" />
     <project path="system/security" name="android_system_security" remote="mdroid" />
+    <project path="system/gatekeeper" name="platform/system/gatekeeper" remote="mdroid" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mdroid" />
