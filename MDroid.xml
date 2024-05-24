@@ -6,7 +6,7 @@
         fetch="https://github.com/" />
 
     <remote name="mdroid"
-        fetch="https://github.com/MiracleDROID"
+        fetch="https://github.com/MiracleDROID-HnT"
         revision="android-8.1" />
   
     <remote name="mdroid-gitlab"
@@ -132,7 +132,7 @@
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="mdroid" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="mdroid" />
+    <project path="frameworks/base" name="Night-Raids-Reborn/mdroid_frameworks_base" remote="github" revision="android-8.1" />
     <project path="frameworks/native" name="android_frameworks_native" remote="mdroid" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mdroid" />
     <project path="frameworks/support" name="android_frameworks_support" remote="mdroid" />
@@ -172,7 +172,7 @@
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="mdroid" />
     <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="mdroid" />
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mdroid" />
-    <project path="packages/apps/MagicalWorld" name="android_packages_apps_MagicalWorld" remote="mdroid" />
+    <project path="packages/apps/MagicalWorld" name="Night-Raids-Reborn/android_packages_apps_MagicalWorld" remote="github" revision="android-8.1" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="mdroid" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="mdroid" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="mdroid" />
@@ -205,5 +205,10 @@
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mdroid" />
     <project path="device/mdroid/sepolicy" name="android_device_mdroid_sepolicy" remote="mdroid" />
+
+    <!-- Trees -->
+    <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="mdroid" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="mdroid" />
+    <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="mdroid" />
 </manifest>
 
